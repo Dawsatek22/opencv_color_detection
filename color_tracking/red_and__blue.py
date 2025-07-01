@@ -11,7 +11,6 @@ while True:
     _,frame = cam.read()
      # Convert to HSV  for red and blue
     hsv_red = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
-    hsv_green = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
     hsv_blue = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
 
    # Define color range of red and blue
